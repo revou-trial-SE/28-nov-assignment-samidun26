@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+
+.hero-section {
+    background-image: url(Chill\ duck.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 150px 0;
+}
+.hero-section p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content-section {
+    padding: 80px 0;
+}
+
+.content-section h2{
+    text-align: center;
+    text-shadow: #333;
+}
+
+.card {
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border-image: auto;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 20px;
+}
+A
+.card-title {
+    color: #333;
+    font-weight: bold;
+}
+.card h5{
+    text-align: center;
+}
+
+.card-text {
+    color: #555;
+    text-align: center;
+}
+.card :hover{
+    background-color: antiquewhite;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    padding: 20px;
+    margin: 0 auto; 
+  }
+
+
+
+  form input[type="text"],
+  form input[type="email"],
+  form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 768px) {
+    header, main, footer {
+      padding: 10px;
+    }
+  }
